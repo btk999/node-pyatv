@@ -43,7 +43,7 @@
   },
   "files": [
     "/dist",
-    "check.sh"
+    "check.bat"
   ],
   "homepage": "https://github.com/sebbo2002/js-template#readme",
   "license": "MIT",
