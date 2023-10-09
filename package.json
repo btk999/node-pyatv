@@ -58,13 +58,11 @@
   "scripts": {
     "build": "tsup && cp ./dist/lib/index.d.ts ./dist/lib/index.d.cts",
     "build-all": "./.github/workflows/build.sh",
-    "check": "./check.sh",
     "coverage": "c8 mocha",
     "develop": "ts-node ./src/bin/start.ts",
     "example": "node ./dist/examples/push.js",
     "license-check": "license-checker --production --summary",
     "lint": "eslint . --ext .ts",
-    "postinstall": "./check.sh",
     "test": "mocha"
   },
   "type": "module",
