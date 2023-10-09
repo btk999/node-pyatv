@@ -64,7 +64,7 @@
     "license-check": "license-checker --production --summary",
     "lint": "eslint . --ext .ts",
     "test": "mocha"
-  }
+  },
   "type": "module",
   "version": "3.0.1"
 }
