@@ -1,2 +1,4 @@
-ping 127.0.0.1 -n 30 > nul
-node "./dist/bin/check.cjs"
+
+IF EXIST "./dist/bin/check.cjs" (
+  node "./dist/bin/check.cjs"
+)
