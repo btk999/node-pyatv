@@ -64,7 +64,7 @@
     "example": "node ./dist/examples/push.js",
     "license-check": "license-checker --production --summary",
     "lint": "eslint . --ext .ts",
-    "postinstall": "check.bat",
+
     "test": "mocha"
   },
   "type": "module",
